@@ -1,0 +1,104 @@
+ body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 700px;
+      margin: 0 auto;
+      background-color: #000;
+    }
+
+    .header {
+      padding: 40px 20px;
+    }
+
+    .header h1 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+
+    .header p {
+      color: #aaa;
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .quote-section {
+      background-color: #fff;
+      color: #000;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px 20px;
+    }
+
+    .quote {
+      width: 55%;
+      font-size: 16px;
+      text-align: left;
+      line-height: 1.6;
+    }
+
+    .quote strong {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .image {
+      width: 40%;
+      text-align: right;
+    }
+
+    .image img {
+      width: 200px;
+      border-radius: 5px;
+    }
+
+    .bio {
+      padding: 40px 20px;
+      text-align: left;
+    }
+
+    .bio h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .bio p {
+      color: #ccc;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    footer {
+      background-color: #000;
+      color: #aaa;
+      padding: 20px 10px;
+      font-size: 12px;
+      border-top: 1px solid #222;
+    }
+
+    footer a {
+      color: #66aaff;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      .quote-section {
+        flex-direction: column;
+        text-align: center;
+      }
+      .quote, .image {
+        width: 100%;
+      }
+      .image {
+        margin-top: 20px;
+      }
+    }
